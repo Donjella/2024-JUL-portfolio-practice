@@ -13,6 +13,10 @@ header {
 body {
     margin: 0;
     background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .name {
@@ -46,4 +50,29 @@ nav {
 nav a {
     text-decoration: none;
     color: #1c3c5c;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.social-media {
+font-size: 20px;
+color: #1c3c5c;
+}
+
+.info {
+    color: #1c3c5c;
+}
+
+.info p {
+    margin: 0;
 }
